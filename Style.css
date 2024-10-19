@@ -1,0 +1,70 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em; /* Tamaño del encabezado principal */
+}
+
+/* Estilo del menú de navegación */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none; /* Sin subrayado */
+    color: #007bff; /* Color de los enlaces */
+    padding: 10px 15px; /* Espaciado alrededor de los enlaces */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
+
+/* Estilo para las secciones */
+main {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: auto; /* Centrar el contenido */
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: white; /* Fondo blanco para las secciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de los encabezados de las secciones */
+h2 {
+    border-bottom: 2px solid #007bff; /* Línea debajo de los encabezados */
+    padding-bottom: 5px; /* Espacio debajo del encabezado */
+    margin-top: 40px; /* Margen superior para separación */
+}
+
+/* Estilo para los párrafos */
+p {
+    margin: 15px 0; /* Espacio entre párrafos */
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center; /* Centrar el texto del footer */
+    margin: 20px 0; /* Margen arriba y abajo */
+    padding: 10px; /* Espaciado alrededor */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}
+
+/* Estilo para los enlaces del footer */
+footer a {
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
